@@ -2,7 +2,7 @@ const img = document.querySelector("img");
 
 let searchTerm = "messi"
 let msg = document.querySelector("#loadingMsg")
-let api = process.env.api
+let api = process.env.GIPHYKEY
 
 function refreshGIF(term) {
     img.src = "./loading.gif"
