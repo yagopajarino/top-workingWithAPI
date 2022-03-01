@@ -1,7 +1,7 @@
 const img = document.querySelector('img');
 
 const searchTerm = 'messi';
-const api = process.env.GIPHKEY;
+const api = "HZeSNQSr2VPJM5lLlQr7DqDtQr5Hs8yL"; // Beta API key
 
 function refreshGIF(term) {
   img.src = loadingImg;
