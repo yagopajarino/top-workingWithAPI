@@ -14,11 +14,27 @@ body {
 
 .container {
   padding: 1rem;
+  display: flex;
 }
 
 input,
-button {
-  font-size: 1rem;
+#refreshButton {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+
+input:focus-visible {
+  outline-width: 0px;
+}
+
+#refreshButton {
+  background-color: #827230;
+}
+
+#refreshButton:hover {
+  background-color: #bb9a59;
 }
 
 footer {
