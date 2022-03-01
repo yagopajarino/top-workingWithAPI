@@ -2,12 +2,12 @@ const img = document.querySelector("img");
 
 let searchTerm = "messi"
 let msg = document.querySelector("#loadingMsg")
+let api = process.env.api
 
 function refreshGIF(term) {
     img.src = "./loading.gif"
     img.style.height = "100px"
-    console.log(`https://api.giphy.com/v1/gifs/translate?api_key=Z38AVoAh7cQrJfg7B6r4x8F5gZFoK8vm&s=${term}`)
-    fetch(`https://api.giphy.com/v1/gifs/translate?api_key=Z38AVoAh7cQrJfg7B6r4x8F5gZFoK8vm&s=${term}`, {mode:"cors"})
+    fetch(`https://api.giphy.com/v1/gifs/translate?api_key=${api}&s=${term}`, {mode:"cors"})
     .then(function (response){
         return response.json()
     })
