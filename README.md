@@ -5,5 +5,5 @@ Github pages : [TOP: Working with API](https://yagopajarino.github.io/top-workin
 
 ## Free API lists
 
-* [n0shake/Public-APIs: 📚 A public list of APIs from round the web.](https://github.com/n0shake/Public-APIs)
-* [public-apis/public-apis: A collective list of free APIs](https://github.com/public-apis/public-apis)
+- [n0shake/Public-APIs: 📚 A public list of APIs from round the web.](https://github.com/n0shake/Public-APIs)
+- [public-apis/public-apis: A collective list of free APIs](https://github.com/public-apis/public-apis)
