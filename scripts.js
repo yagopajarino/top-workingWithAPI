@@ -27,6 +27,5 @@ refBtn.addEventListener("click", function(){
 })
 
 window.onload = (()=> {refreshGIF(searchTerm)})
-// done
 
 
